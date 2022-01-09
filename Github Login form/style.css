@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(bg7.jpg) no-repeat center;
+    background-size: cover;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-right: 250px;
+    margin-bottom: 120px; */
+    height: 100vh;
+}
+
+.box{
+    position: relative;
+    padding: 18px;
+    border-radius: 10px;
+    background: rgba(9, 15, 4, 0.7);
+    width: 100%;
+    max-width: 380px;
+    height: 100%;
+    max-height: 330px;
+}
+/* .box::before{
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 50%;
+    background:rgba(34, 81, 119, 0.7) ;
+
+} */
+
+h2{
+    text-align: center;
+    padding-bottom: 15px;
+    letter-spacing: 1px;
+    color: rgb(207, 86, 29);
+    padding-top: 12px;
+    text-decoration: underline;
+}
+
+.box .inner-group{
+    position: relative;
+}
+
+.box .inner-group input{
+
+    width: 100%;
+    height: 30px;
+    margin: 18px 0px;
+    background: transparent;
+    outline: none;
+    border: none;
+    letter-spacing: 1px;
+    color: #fff;
+    font-size: 16px;
+    border-bottom:  1px solid #fff;
+    
+
+}
+
+.box .inner-group label{
+    position: absolute;
+    top: 15px;
+    left:0px;
+    letter-spacing: 1px;
+    transition: .3s ease-out;
+}
+.box .inner-group input:focus ~ label,
+.box .inner-group input:valid ~ label{
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    font-size: 14px;
+    color:rgb(216, 148, 21) ;
+    /* transition: .3s ease-out; */
+}
+
+.box .submit-btn{
+    padding: 4px 10px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin: 30px 12px;
+    cursor: pointer;
+    background: rgb(207, 86, 29);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+a{
+    /* position: absolute;
+    top: 300px;
+    left: 140px; */
+   color: inherit;
+   padding: 30px 0 0 90px; 
+   margin: 19px 0px;
+}
+
+
+
+
+
